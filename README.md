@@ -19,3 +19,7 @@
 ## ساخت
 پروژه را در Android Studio باز کنید و با JDK 17 و Android SDK 35 همگام‌سازی و Build کنید.
 فایل‌های GitHub Actions یا YAML عمداً اضافه یا تغییر داده نشده‌اند.
+
+
+## GitHub Actions
+فایل `.github/workflows/android.yml` با رویداد `push` برای همه شاخه‌ها و `workflow_dispatch` اضافه شده است. پس از Push، خروجی APK آزمایشی از بخش Actions > Artifacts قابل دریافت است.
